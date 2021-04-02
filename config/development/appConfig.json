@@ -1,0 +1,8 @@
+{
+  "Port": ":9002",
+  "SiteUrl": "//dev.stories.xuanlh.me",
+  "Protocol": "http",
+  "StaticUrl": "//st.dev.stories.xuanlh.me",
+  "UploadUrl": "//up.dev.stories.xuanlh.me",
+  "StaticVersion": "v2"
+}

@@ -1,0 +1,14 @@
+{
+  "Url": "amqp://guest:guest@localhost:5672/",
+  "Prefix": "stories_",
+  "Queue": [
+    {
+      "Name": "admin_elastic",
+      "Num": 10
+    },
+    {
+      "Name": "admin_process",
+      "Num": 10
+    }
+  ]
+}

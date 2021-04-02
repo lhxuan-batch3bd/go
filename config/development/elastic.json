@@ -1,0 +1,7 @@
+{
+  "Host": "192.168.197.45",
+  "Port": "9200",
+  "Type": "data",
+  "Prefix": "xuan_stories_",
+  "Protocol": "http"
+}

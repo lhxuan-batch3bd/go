@@ -1,0 +1,70 @@
+{
+  "App": {
+    "Index": {
+      "Name": "AppIndex",
+      "Pattern": "/"
+    },
+    "Cate": {
+      "Name": "AppCate",
+      "Pattern": "/genres/{Slug:[a-zA-Z0-9_-]+}",
+      "Params": [
+        "Slug"
+      ],
+      "Queries": [
+        "page"
+      ]
+    },
+    "Post": {
+      "Name": "AppPost",
+      "Pattern": "/stories/{Slug:[a-zA-Z0-9_-]+}",
+      "Params": [
+        "Slug"
+      ]
+    },
+    "Chapter": {
+      "Name": "AppChapter",
+      "Pattern": "/read/{PostSlug:[a-zA-Z0-9_-]+}/{ChapterSlug:[a-zA-Z0-9_-]+}",
+      "Params": [
+        "PostSlug",
+        "ChapterSlug"
+      ]
+    },
+    "Author": {
+      "Name": "AppAuthor",
+      "Pattern": "/author/{Slug:[a-zA-Z0-9_-]+}-{AuthorId:[0-9]+}",
+      "Params": [
+        "Slug",
+        "AuthorId"
+      ],
+      "Queries": [
+        "page"
+      ]
+    },
+    "Search": {
+      "Name": "AppSearch",
+      "Pattern": "/search",
+      "Queries": [
+        "keyword",
+        "page"
+      ]
+    }
+  },
+  "Admin": {
+    "Index": {
+      "Name": "AdminIndex",
+      "Pattern": ""
+    },
+    "Cate": {
+      "Name": "AdminCate",
+      "Pattern": ""
+    },
+    "Post": {
+      "Name": "AdminPost",
+      "Pattern": ""
+    },
+    "Chapter": {
+      "Name": "AdminChapter",
+      "Pattern": ""
+    }
+  }
+}

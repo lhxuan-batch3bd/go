@@ -1,0 +1,8 @@
+{
+  "Host": "127.0.0.1",
+  "Port": "3306",
+  "Driver": "mysql",
+  "UserName": "stories",
+  "Password": "%^&*UHGR$$@#$DFF",
+  "DBName": "v3.stories"
+}

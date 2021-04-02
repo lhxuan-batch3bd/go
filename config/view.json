@@ -1,0 +1,23 @@
+{implent
+  "App": {
+    "Templates": [
+      "modules/app/head.html",
+      "modules/app/header.html",
+      "modules/app/footer.html",
+      "modules/app/slider-bar.html",
+      "modules/app/modal-user.html",
+      "modules/app/layout.html"
+    ],
+    "RootTemplate": "layout",
+    "View": {
+      "Index": "modules/app/index/index.html",
+      "Post": "modules/app/post/index.html",
+      "Chapter": "modules/app/chapter/index.html",
+      "Cate": "modules/app/cate/index.html",
+      "Author": "modules/app/author/index.html",
+      "Search": "modules/app/search/index.html"
+    }
+  },
+  "Admin": {
+  }
+}

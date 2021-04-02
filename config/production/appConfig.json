@@ -1,0 +1,8 @@
+{
+  "Port": ":9002",
+  "SiteUrl": "//stories.chiennn.me",
+  "Protocol": "http",
+  "StaticUrl": "//static.stories.chiennn.me",
+  "UploadUrl": "//upload.stories.chiennn.me",
+  "StaticVersion": "v1"
+}
